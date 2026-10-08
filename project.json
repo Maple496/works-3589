@@ -1,0 +1,22 @@
+{
+  "name": "触屏井字棋",
+  "brief": "双人轮流落子的井字棋，三连线胜、平局判定，一键重开，触屏可玩。",
+  "work_ref": "WORKS-",
+  "entry": "src/main.js",
+  "status": "ok",
+  "files": [
+    {
+      "path": "src/board.js",
+      "role": "棋局逻辑：棋盘状态、落子合法性、胜负与平局判定、重开"
+    },
+    {
+      "path": "src/ui.js",
+      "role": "渲染与触控：棋盘绘制、棋子/连线路径、平局与胜利文案、重开按钮"
+    },
+    {
+      "path": "src/main.js",
+      "role": "入口：挂载画布、主循环驱动渲染、触屏点击落子与重开"
+    }
+  ],
+  "generated_by": "proj_forge（AI 工程工坊）"
+}
